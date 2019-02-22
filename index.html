@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MA1</title>
+
+  </head>
+<body>
+    <form novalidate>
+      First Name:<input id="fname" pattern="[a-zA-Z\W]{3}" type="text" name="First Name">
+      Last Name:<input id="lname" pattern="[a-zA-Z\W]{3}" type="text" name="Last Name">
+      Number:<input id="num" pattern="[0-9\D]{7,10}"  type="text" name="Number">
+      Email:<input id="email" pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/" type="text" name="Email">
+      <button type="button" id="submit">Send</button>
+    </form>
+
+    <p></p>
+</body>
+<script src="index.js"></script>
+</html>
